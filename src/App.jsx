@@ -176,7 +176,7 @@ export default function App() {
       <div className="hero" id="home">
         <div className="wrap hero-grid">
           <div className="hero-text">
-            <p className="hello"><span className="dot" /> Open to work · {d.contact.location.split(',')[0]}</p>
+            <p className="hello"><span className="dot" /> Open to work · {d.contact.location.split(',')[1]}</p>
             <h1>Hi, I’m <span className="grad">{d.name}</span></h1>
             <h2><Typing words={d.roles} /></h2>
             <p className="sum">{d.summary}</p>
