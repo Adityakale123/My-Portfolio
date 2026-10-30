@@ -1,13 +1,21 @@
-// ✏️ EDIT ONLY THIS FILE to change the text on your website.
+
 
 export const data = {
   name: 'Aditya Kale',
   title: 'Full Stack Java Developer',
   summary:
     'I build scalable REST APIs, microservices and web apps with Java, Spring Boot and React, and I work on Azure DevOps CI/CD and deployments.',
-  resume: './Aditya_Kale_Resume.pdf', // put your PDF in the "public" folder with this exact name
+  resume: './Aditya_Kale_Resume.pdf',
   github: 'https://github.com/Adityakale123',
   linkedin: 'https://linkedin.com/in/adityakale1704',
+  roles: ['Full Stack Java Developer', 'Spring Boot Engineer', 'Azure DevOps Enthusiast'],
+  photo: './MyPhoto.jpg',
+  stats: [
+    { n: 1.5, s: '+', l: 'Years experience' },
+    { n: 4, s: '', l: 'Internships & roles' },
+    { n: 5, s: '+', l: 'Projects built' },
+    { n: 6, s: '', l: 'Certifications' },
+  ],
   topSkills: ['Java', 'Spring Boot', 'ReactJS', 'Azure DevOps'],
 
   about:
@@ -98,26 +106,31 @@ export const data = {
 
   projects: [
     {
+      icon: '📄',
       name: 'DocIntell – AI-Powered Document Intelligence',
       description: 'An AI-based system for document processing and semantic search.',
       tools: ['ASP.NET', 'PostgreSQL', 'pgvector'],
       points: ['Built ASP.NET backend services with PostgreSQL and pgvector for document retrieval.'],
     },
     {
+      icon: '🎓',
       name: 'Hoolistem – Online Learning Platform',
       description: 'An e-learning platform where teachers sell lectures and students access learning materials.',
     },
     {
+      icon: '🛠️',
       name: 'UrbanCompany – On-Demand Service Booking Platform',
       description: 'A platform connecting customers with home service professionals.',
       points: ['Built service discovery, booking and customer interaction features.'],
     },
     {
+      icon: '👕',
       name: 'Uniquet – Clothing Manufacturer & Retailer Platform',
       description: 'A platform connecting clothing manufacturers and retailers.',
       points: ['Implemented product management and manufacturer–retailer workflows.'],
     },
     {
+      icon: '📚',
       name: 'Study Room Application',
       description: 'An e-learning application with progress tracking and content suggestions.',
     },
@@ -142,6 +155,17 @@ export const data = {
     'REST API Development',
     'SpringBoot Certification',
   ],
+
+  quotes: [
+    { text: 'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.', by: 'Martin Fowler' },
+    { text: 'Make it work, make it right, make it fast.', by: 'Kent Beck' },
+    { text: 'I don’t just want to write code that works. I want it to be clear, tested and easy for the next developer to build on.', by: 'Aditya Kale · my approach' },
+  ],
+
+  thanks: {
+    title: 'Thank you for visiting',
+    text: 'Thank you for taking the time to view my portfolio. I would love to talk about how I can help your team. Let’s build something great together.',
+  },
 
   contact: {
     text: 'I’m open to Java Backend and Full Stack Developer roles. Send me a message and I’ll reply soon.',
